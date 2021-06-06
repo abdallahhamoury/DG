@@ -74,11 +74,11 @@
 
 
 
-// var kindWork = prompt("whats your Kind of work : Marketing, Development, Business strategy");
+var kindWork = prompt("whats your Kind of work : Marketing, Development, Business strategy");
 
 
 
-// function kindWorkFun() {
+function kindWorkFun() {
 
   while (kindWork !== " Marketing" && kindWork !== "Development" && kindWork !== "Business strategy") {
 
@@ -111,7 +111,7 @@ var catCuteFun = function () {
 
   for (var i = 0; i < catNum; i++) {
 
-    outPut = outPut + "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa1WHcGygpUN6w0Vz0eU6mZ3Ud1fspBMpQYQ&usqp=CAU'/>"
+    // outPut = outPut + "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa1WHcGygpUN6w0Vz0eU6mZ3Ud1fspBMpQYQ&usqp=CAU'/>"
     document.write(outPut + "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa1WHcGygpUN6w0Vz0eU6mZ3Ud1fspBMpQYQ&usqp=CAU'/>");
 
     console.log(i, outPut);
